@@ -10,13 +10,23 @@ Go to the [Docker Hub](https://hub.docker.com/r/alangtw/jupyter-opencv-tf/)
 
 ```bash
 git clone https://github.com/a-lang/docker-opencv-tensorflow.git
-docker run -it --name=jupyter -p 8888:8888 -v $PWD/notebook:/home/jovyan/work alangtw/jupyter-opencv-tf:181206
+
+docker run -it --name=jupyter \
+-p 8888:8888 \
+-v $PWD/notebook:/home/jovyan/work \
+alangtw/jupyter-opencv-tf:181206
 ```
 
 alternatively,
 
 ```bash
 ./run.sh
+```
+
+Change the permission of the directory notebook otherwise the notebook will be locked as read-only.
+
+```
+chown -R 1000 $PWD/notebook
 ```
 
 ### Get the token info of Jupyter Notebook web
