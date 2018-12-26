@@ -33,17 +33,15 @@ train.describe()
 
 <div>
 <style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
+.dataframe tbody tr th:only-of-type {
+vertical-align: middle;
+}
+.dataframe tbody tr th {
+vertical-align: top;
+}
+.dataframe thead th {
+text-align: right;
+}
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -282,17 +280,15 @@ test.describe()
 
 <div>
 <style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
+.dataframe tbody tr th:only-of-type {
+    vertical-align: middle;
+}
+.dataframe tbody tr th {
+    vertical-align: top;
+}
+.dataframe thead th {
+    text-align: right;
+}
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -742,17 +738,15 @@ missing_data
 
 <div>
 <style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
+.dataframe tbody tr th:only-of-type {
+    vertical-align: middle;
+}
+.dataframe tbody tr th {
+    vertical-align: top;
+}
+.dataframe thead th {
+    text-align: right;
+}
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -1019,17 +1013,15 @@ all_data.groupby('GarageType')[abc].count()
 
 <div>
 <style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
+.dataframe tbody tr th:only-of-type {
+      vertical-align: middle;
+}
+.dataframe tbody tr th {
+     vertical-align: top;
+}
+.dataframe thead th {
+     text-align: right;
+}
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -1246,17 +1238,15 @@ missing_data.head()
 
 <div>
 <style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
+.dataframe tbody tr th:only-of-type {
+     vertical-align: middle;
+}
+.dataframe tbody tr th {
+     vertical-align: top;
+}
+.dataframe thead th {
+     text-align: right;
+}
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -1289,17 +1279,15 @@ all_data[cols].describe()
 
 <div>
 <style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
+.dataframe tbody tr th:only-of-type {
+     vertical-align: middle;
+}
+.dataframe tbody tr th {
+     vertical-align: top;
+}
+.dataframe thead th {
+     text-align: right;
+}
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -1401,9 +1389,9 @@ skewness = pd.DataFrame({'Skew' :skewed_feats})
 skewness.head(15)
 ```
 
-    
+
     Skew in numerical features: 
-    
+
 
 
 
@@ -1411,17 +1399,15 @@ skewness.head(15)
 
 <div>
 <style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
+.dataframe tbody tr th:only-of-type {
+    vertical-align: middle;
+}
+.dataframe tbody tr th {
+    vertical-align: top;
+}
+.dataframe thead th {
+    text-align: right;
+}
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -1522,9 +1508,9 @@ skewness_after = pd.DataFrame({'Skew' :skewes})
 skewness_after.head(15)
 ```
 
-    
+
     Skew in numerical features (after transforming): 
-    
+
 
 
 
@@ -1532,17 +1518,15 @@ skewness_after.head(15)
 
 <div>
 <style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
+.dataframe tbody tr th:only-of-type {
+    vertical-align: middle;
+}
+.dataframe tbody tr th {
+    vertical-align: top;
+}
+.dataframe thead th {
+    text-align: right;
+}
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -1931,17 +1915,15 @@ my_submission
 
 <div>
 <style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
+.dataframe tbody tr th:only-of-type {
+     vertical-align: middle;
+}
+.dataframe tbody tr th {
+     vertical-align: top;
+}
+.dataframe thead th {
+     text-align: right;
+}
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -2261,5 +2243,3 @@ my_submission
 </table>
 <p>1459 rows × 2 columns</p>
 </div>
-
-
