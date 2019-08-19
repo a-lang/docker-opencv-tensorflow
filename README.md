@@ -41,3 +41,20 @@ docker exec -it jupyter jupyter notebook list
 docker build -t jupyter-opencv-tf .
 ```
 
+### Add other python modules (optional)
+
+Install cmake, dlib modules with pip
+
+```
+docker exec -it jupyter bash
+
+jovyan@176594c4a5e5:~$ pip install cmake
+jovyan@176594c4a5e5:~$ pip install dlib
+```
+
+Save the container changed into a new image
+
+```
+docker commit jupyter jupyter-opencv-tf:new
+```
+
